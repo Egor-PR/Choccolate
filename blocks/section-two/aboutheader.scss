@@ -1,0 +1,21 @@
+.about__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.about__subtitle {
+  max-width: 357px;
+  color: gray;
+  height: 70px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+}

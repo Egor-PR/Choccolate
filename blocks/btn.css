@@ -1,0 +1,5 @@
+.hero__section-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

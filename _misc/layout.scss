@@ -1,0 +1,41 @@
+.body {
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  //@include ubuntu();
+  color: black;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+
+  height: 100%;
+  overflow: hidden;
+}
+.maincontent{
+  height: 100%;
+  transition:transform 1s;
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}

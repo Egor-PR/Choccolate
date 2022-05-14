@@ -1,0 +1,40 @@
+.about__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+  padding: 5px 5px;
+}
+.about__column:last-child {
+  margin-right: 0;
+}
+
+.item-about__icon {
+  background: whitesmoke;
+  width: 50px;
+  height: 50px;
+  border: 20px solid whitesmoke;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+
+.item-about__title {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.item-about__text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: gray;
+  line-height: 1.2;
+  align-items: center;
+}

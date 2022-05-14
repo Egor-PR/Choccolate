@@ -1,0 +1,52 @@
+.hero {
+  background: url('../img/bg/sec1.jpg') center center / cover no-repeat;
+}
+
+.hero-btn {
+  margin-bottom: 30px;
+}
+
+.hero__content {
+  flex: .8;
+  display: flex;
+  //align-items: center;
+  width: 450px;
+  max-height: 390px;
+  margin: 20px 20px;
+}
+
+.hero__content-text {
+  margin-left: 10px;
+  height: 250px;
+}
+
+.hero-item__icon {
+  width: 70px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.hero-item__text {
+  font-weight: 5; //
+  color: white;
+  text-transform: capitalize;
+}
+
+.hero__column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.hero__row {
+  display: flex;
+  width: 450px;
+  height: 60px;
+}
+
+.hero-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 -15px;
+
+}

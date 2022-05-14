@@ -1,0 +1,47 @@
+.delivery__blocks {
+  display: flex;
+  height: 320px;
+  flex-direction: column;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  justify-content:flex-start;
+}
+
+.delivery__data {
+  display: flex;
+  max-inline-size: min-content;
+  margin-right: 5px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.data__link {
+  list-style: none;
+  max-inline-size: min-content;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.data__item {
+  display: flex;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  padding: 0;
+  justify-content: space-between;
+}
+
+.delivery__data-contacts {
+  display: flex;
+  justify-content: space-between;
+}

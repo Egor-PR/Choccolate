@@ -1,0 +1,26 @@
+//_micc
+@import "_misc/layout.scss";
+//blocks
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/menu.scss";
+@import "blocks/btn.scss";
+@import "blocks/section-title.scss";
+@import "blocks/contact.scss";
+
+// section two
+@import "blocks/section-two/about.scss";
+@import "blocks/section-two/aboutheader.scss";
+@import "blocks/section-two/column.scss";
+// section three
+@import "blocks/section-three/reviews.scss";
+@import "blocks/section-three/header__reviews.scss";
+@import "blocks/section-three/reviews__content.scss";
+@import "blocks/section-three/reviews__block.scss";
+// section four
+@import "blocks/section-four/delivery.scss";
+@import "blocks/section-four/delivery__blocks.scss";
+@import "blocks/section-four/delivery__content.scss";
+@import "blocks/section-four/delivery__header.scss";
+@import "blocks/section-four/search-form.scss";
+@import "blocks/section-four/delivery__blocks-btn.scss";
